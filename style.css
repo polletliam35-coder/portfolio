@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background:
+        linear-gradient(
+            rgba(8, 24, 99, 0.2),
+            rgba(8, 24, 99, 0.2)
+        ),
+        url("assets/mark.png");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: #e5e7eb;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    background-color: rgba(8, 24, 99, 1);
+    border-radius: 5px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    background-color: rgba(8, 24, 99, 1);
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background-color: #38bdf8;
+    color: #020617;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+.btn:hover {
+    background-color: #0ea5e9;
+}
+
+.click{
+    display: flex;
+}
+
+
+/* SECTIONS */
+section {
+    padding: 60px 10%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* PROJECTS */
+.projects {
+    background-color: #020617;
+}
+
+.project-card {
+    background-color: #1e293b;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+/*cv*/
+.cv-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+}
+
+.cv-pdf {
+    width: 100%;
+    height: 90vh;
+    border-radius: 8px;
+}
+.cv-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px 5%;
+}
+
+.cv-pdf {
+    flex: 1;
+    height: 85vh;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #020617;
+    font-size: 0.9rem;
+}
