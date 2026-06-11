@@ -40,6 +40,7 @@ body {
     margin-bottom: 10px;
     background-color: rgba(8, 24, 99, 1);
     border-radius: 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 .hero p {
@@ -47,6 +48,7 @@ body {
     margin-bottom: 20px;
     background-color: rgba(8, 24, 99, 1);
     border-radius: 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 .btn {
@@ -56,11 +58,14 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    margin:0 10px 0 10px;
+    transition: transform 0.3s ease;
     
 }
 
 .btn:hover {
     background-color: #0ea5e9;
+    transform: scale(1.1);
 }
 
 .click{
@@ -83,11 +88,21 @@ h2 {
     background-color: #020617;
 }
 
+
 .project-card {
     background-color: #1e293b;
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.project-card a {
+    color: #e5e7eb;
+    all: unset;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
 }
 /*cv*/
 .cv-page {
