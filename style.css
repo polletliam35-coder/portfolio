@@ -138,7 +138,13 @@ h2 {
 .videos iframe{
     width: 50%;
 }
-
+.video_boss{
+    display: flex;
+    justify-content: center;
+}
+.video_boss iframe{
+    width: 50%;
+}
 .pdf {
     margin-top: 20px;
 }
